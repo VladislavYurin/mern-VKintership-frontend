@@ -2,7 +2,7 @@ import { idText } from "typescript";
 
 class Api {
     constructor(token) {
-        this.path = "http://localhost:4000";
+        this.path = "https://mern-v-kintership-backend.vercel.app";
         this.token = token;
     }
 
