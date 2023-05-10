@@ -1,0 +1,47 @@
+.userPage {
+    display: flex;
+    width: 100%;
+}
+
+.userPageContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 10px;
+    align-items: center;
+    margin-left: 30px;
+    width: 85%;
+}
+
+.grid-item {
+    padding: 10px;
+}
+
+.image {
+    grid-row: 1 / span 5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: bold;
+    color: azure;
+}
+
+.mainText {
+    font-size: 30px;
+    font-weight: bold;
+    color: azure;
+}
+
+.addPostButton,
+.friendButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}

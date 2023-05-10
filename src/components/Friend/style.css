@@ -1,0 +1,29 @@
+.friendContainer {
+    align-items: center;
+    padding: 12px;
+    border: 1px solid azure;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.avatarContainer {
+    margin-right: 10px;
+}
+
+.avatarContainer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nameContainer {
+    font-size: 18px;
+    color: azure;
+} 
+
+.nullDiv {
+    width: 25%
+}

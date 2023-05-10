@@ -1,0 +1,47 @@
+.popupBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+}
+
+.popupBox.active {
+    display: flex;
+}
+
+.popup {
+    width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    border: 2px solid azure;
+    font-size: 18px;
+    color: azure;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.popupClose {
+    position: absolute;
+    font-size: 30px;
+    right: 5px;
+    top: -10px;
+    cursor: pointer;
+}
+
+.input {
+    font-size: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* margin-right: 40px; */
+    width: 90%;
+}

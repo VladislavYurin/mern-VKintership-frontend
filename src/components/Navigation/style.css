@@ -1,0 +1,21 @@
+.navigationContainer {
+    background-color: rgb(66, 66, 66);
+    width: 15%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navigationButton {
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: azure;
+    cursor: pointer;
+}
+
+.navigationButton:hover {
+    background-color: rgb(134, 134, 134);
+}

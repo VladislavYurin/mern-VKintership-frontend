@@ -1,0 +1,50 @@
+.mainLayout {
+  min-height: 100vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  background-color: rgb(44, 44, 44);
+}
+
+.bigButton {
+  background-color: rgb(66, 66, 66);
+  color: azure;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bigButton:hover {
+  background-color: rgb(134, 134, 134);
+}
+
+
+.littleButton {
+  background-color: rgb(66, 66, 66);
+  color: azure;
+  font-size: 12px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.littleButton:hover {
+  background-color: rgb(134, 134, 134);
+}
+
+.littleButton:disabled {
+  background-color: rgb(134, 134, 134);
+}
+
+.bigInput {
+  background-color: rgb(134, 134, 134);
+  color: azure;
+  border: 1px solid azure;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 18px;
+  width: 100%;
+}
