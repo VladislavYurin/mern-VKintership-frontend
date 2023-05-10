@@ -74,7 +74,7 @@ const App: React.FC = () => {
             setUser(data);
           })
           .catch((error) => console.log(error));
-      }, 500);
+      }, 5000);
       return () => clearInterval(interval);
     }
   }, [api, token, user]);
